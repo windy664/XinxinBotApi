@@ -56,6 +56,11 @@
             <id>spigotmc-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
+    <repository>
+  <id>helpchat-repo-content</id>
+  <name>HelpChat Maven Repository</name>
+  <url>https://repo.extendedclip.com/content</url>
+</repository>
     </repositories>
 
     <dependencies>
@@ -76,12 +81,11 @@
             <version>2.2.3</version>
             <classifier>jdk15</classifier>
         </dependency>
-        <dependency>
-         <groupId>me.clip</groupId>
-          <artifactId>placeholderapi</artifactId>
-          <version>2.11.5</version>
-         <scope>provided</scope>
-        </dependency>
+<dependency>
+  <groupId>me.clip</groupId>
+  <artifactId>placeholderapi</artifactId>
+  <version>2.11.5</version>
+</dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-dbcp2</artifactId>
