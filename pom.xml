@@ -77,11 +77,10 @@
             <classifier>jdk15</classifier>
         </dependency>
         <dependency>
-            <groupId>me.clip.placeholderapi</groupId>
-            <artifactId>PlaceholderAPI</artifactId>
-            <version>2.11.5</version> <!-- 更新版本号 -->
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/PlaceholderAPI-2.11.5.jar</systemPath> <!-- 确保路径正确 -->
+         <groupId>me.clip</groupId>
+          <artifactId>placeholderapi</artifactId>
+          <version>2.11.5</version>
+         <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
