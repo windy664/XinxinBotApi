@@ -52,10 +52,6 @@
     </build>
 
     <repositories>
-        <repository>
-            <id>spigotmc-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-        </repository>
     <repository>
   <id>helpchat-repo-content</id>
   <name>HelpChat Maven Repository</name>
