@@ -52,10 +52,10 @@
     </build>
 
     <repositories>
-    <repository>
-  <id>helpchat-repo-content</id>
+<repository>
+  <id>helpchat-repo-releases</id>
   <name>HelpChat Maven Repository</name>
-  <url>https://repo.extendedclip.com/content</url>
+  <url>https://repo.extendedclip.com/releases</url>
 </repository>
     </repositories>
 
